@@ -18,7 +18,7 @@ do
 	echo "a mix of numbers and special characters."
 	echo "*************************************************"
 
-	smbpasswd -U $user -r wolverine.westbranch.org
+	smbpasswd -U $user -r [DC-SERVER-IP]
 
 	echo "*************************************************"
 	read -r -p "Was password change successful? [Y/n] " input
