@@ -10,4 +10,5 @@ echo
 echo "Please enter your username (EX: 101830 OR jsmith)"
 read user
 smbpasswd -U $user -r [SERVER-ADDRESS]
+read -s -n 1 -p "PRESS ANY KEY TO CLOSE"
 exit
